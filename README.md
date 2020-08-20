@@ -15,3 +15,12 @@ Express, Express-session, MySql, Passport, Sequelize, Bcryptjs, Authenticate mid
 # Reverse Engineering Link
 
 https://docs.google.com/document/d/1vzlsQ8Xg8lMeRhimB1_l0EgVas-WQOdPSFEBGPQrGtI/edit?usp=sharing
+
+# Walkthrough
+1)Create a mysql db called "passport_demo" 
+2)In the config file, open config.js and insert your personal data ie username, password, etc..
+3)Open terminal inside current repo and  run "npm i" to install all node packages 
+4)Run "nodemon server.js" and you will successfully connect to server 
+5)In browser put "http://localhost:8080" in search bar
+
+Everything should run from there.  
